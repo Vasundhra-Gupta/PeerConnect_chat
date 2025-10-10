@@ -2,7 +2,7 @@ import { Router } from 'express';
 import {
     createOrder,
     verifyPayment,
-} from '../controllers/razorpay.controller.js';
+} from '../controllers/razorpay.Controller.js';
 
 export const razorpayRouter = Router();
 
