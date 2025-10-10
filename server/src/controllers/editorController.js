@@ -16,7 +16,7 @@ const compileGeneralCode = tryCatch('compile code', async (req, res) => {
                 language: language,
                 versionIndex: LANGUAGE_CONFIG[language].versionIndex,
                 clientId: process.env.JDOODLE_CLIENT_ID,
-                clientSecret: process.env.KDOODLE_CLIENT_SECRET,
+                clientSecret: process.env.JDOODLE_CLIENT_SECRET,
             }),
         });
         const data = await response.json();
