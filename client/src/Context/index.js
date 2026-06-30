@@ -4,7 +4,7 @@ import { usePopupContext, PopupContextProvider } from './PopupContext';
 import { useSideBarContext, SideBarContextProvider } from './SideBarContext';
 import { useSearchContext, SearchContextProvider } from './SearchContext';
 import { ChatContextProvider, useChatContext } from './ChatContext';
-import { SocketContextProvider, useSocketContext } from './SocketContext';
+import { SocketContextProvider, useSocketContext } from './socketContext';
 import { ResumeContextProvider, useResumeContext } from './ResumeContext';
 import { EditorContextProvider, useEditorContext } from './EditorContext';
 import { ProjectContext, useProjectContext } from './ProjectContext';
