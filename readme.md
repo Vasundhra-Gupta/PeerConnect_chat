@@ -1,4 +1,4 @@
-# 🤝 Peer Connect  
+# 🤝 Peer Connect 
 **Real Projects. Real Teams. Real Growth.**  
 *Empowering students to collaborate, contribute, and grow — together.*
 
@@ -195,4 +195,4 @@ npm run dev
 
 We aren’t just solving for placements — **We’re building a culture of collaboration, contribution, and confidence.**
 
-Thankyou
+Thankyou 🌟
