@@ -100,13 +100,13 @@ import ViewResume from './Resume/ViewResume';
 import EditResume from './Resume/EditResume';
 import ResumeCardItem from './Resume/ResumeCardItem';
 import ResumePreview from './Resume/ResumePreview';
-import PersonalInfoPreview from './Resume/Previews/PersonalInfoPreview';
-import EducationPreview from './Resume/Previews/EducationPreview';
-import ExperiencePreview from './Resume/Previews/ExperiencePreview';
-import SkillsPreview from './Resume/Previews/SkillsPreview';
-import AchievementsPreview from './Resume/Previews/AchievementsPreview';
-import SummaryPreview from './Resume/Previews/SummaryPreview';
-import ProjectPreview from './Resume/Previews/ProjectPreview';
+import PersonalInfoPreview from './Resume/previews/PersonalInfoPreview';
+import EducationPreview from './Resume/previews/EducationPreview';
+import ExperiencePreview from './Resume/previews/ExperiencePreview';
+import SkillsPreview from './Resume/previews/SkillsPreview';
+import AchievementsPreview from './Resume/previews/AchievementsPreview';
+import SummaryPreview from './Resume/previews/SummaryPreview';
+import ProjectPreview from './Resume/previews/ProjectPreview';
 
 // Interview components
 import Home from './Interview/Pages/Home';
