@@ -24,7 +24,7 @@ export default function Layout() {
     }, [pathname]);
 
     return (
-        <div className="h-screen w-full overflow-hidden" ref={layoutRef}>
+        <div className="h-screen w-full overflow-hidden px-3" ref={layoutRef}>
             <Header />
             <div className="flex pt-[55px] h-full">
                 <Sidebar />
