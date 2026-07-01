@@ -3,13 +3,10 @@ import { ErrorHandler, tryCatch } from '../utils/index.js';
 
 export const quickBot = tryCatch('bot chat', async (req, res, next) => {
     const { userInput } = req.body;
-    console.log(process.env.OPEN_ROUTER_API_KEY);
 
     if (!userInput) {
         return res.status(BAD_REQUEST).json({ message: 'User input missing' });
     }
-
-    console.log(1);
     const response = await fetch(
         'https://openrouter.ai/api/v1/chat/completions',
         {
@@ -32,8 +29,6 @@ export const quickBot = tryCatch('bot chat', async (req, res, next) => {
             }),
         }
     );
-
-    console.log(2, response);
 
     if (!response.ok) {
         const errorData = await response.json();
