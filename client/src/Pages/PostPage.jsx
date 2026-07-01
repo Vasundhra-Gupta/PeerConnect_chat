@@ -207,7 +207,7 @@ export default function PostPage() {
     ) : !post ? (
         <div>Post Not Found !!</div>
     ) : (
-        <div className="relative w-full h-full flex flex-col items-start justify-start gap-y-6 overflow-y-scroll">
+        <div className="relative w-full h-full flex flex-col items-start justify-start gap-y-6 p-2 overflow-y-scroll">
             <div className="w-full px-2">
                 <div className="w-full flex items-start justify-start flex-col xl:flex-row gap-6">
                     {/* post */}
